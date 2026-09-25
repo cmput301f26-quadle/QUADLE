@@ -1,4 +1,4 @@
 package com.example.quadle
 
-abstract class Shape(var x: Int, var y: Int) {
+abstract class Shape(var x: Int, var y: Int, val color: String = "teal") {
 }
